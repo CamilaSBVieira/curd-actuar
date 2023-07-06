@@ -1,0 +1,23 @@
+.table-item {
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.table-item:hover {
+    background-color: var(--primary-tint);
+}
+.table-item_overflow {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 60%;
+}
+.table-item_controllers button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.table-item_controllers button:hover, .table-item_controllers button:focus {
+    color: var(--primary);
+}
